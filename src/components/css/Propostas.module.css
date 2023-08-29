@@ -1,0 +1,13 @@
+.h1 {
+  margin-left: 25px;
+  font-size: 20px;
+  display: flex;
+  color: #082C8C;
+}
+
+.text {
+  text-align: justify;
+  margin-right: 25px;
+  margin-left: 25px;
+  margin-bottom: 25px;
+}
