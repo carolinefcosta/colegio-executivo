@@ -1,0 +1,21 @@
+/* styles.css ou arquivo de estilo */
+.marca_dagua {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  color: rgba(0, 0, 0, 0.2); /* Cor da marca d'água com opacidade */
+  font-size: 24px; /* Tamanho da fonte da marca d'água */
+  transform: rotate(-45deg); /* Rotação da marca d'água */
+  pointer-events: none; /* Impede que a marca d'água interfira com a interação do usuário */
+}
+
+.watermark {
+  position: fixed;
+  top: 10px; /* Distância do topo */
+  left: 10px; /* Distância da esquerda */
+  color: navy; /* Cor azul marinho */
+  font-size: 24px; /* Tamanho da fonte */
+  opacity: 0.5; /* Opacidade da marca d'água */
+  transform: rotate(-45deg); /* Rotação da marca d'água */
+  pointer-events: none; /* Evita interações do usuário */
+}

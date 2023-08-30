@@ -7,7 +7,6 @@ import ens_fundamental_3 from '../images/Ensino Fundamental (3) (1).png'
 import ens_fund_4 from '../images/Ensino Fundamental (4).png'
 import ensino_fund from '../images/Ensino Fundamental (5).png'
 import Footer from '../components/Footer';
-// import logo from '../images/buss.jfif'
 
 export default function Home() {
     return (
