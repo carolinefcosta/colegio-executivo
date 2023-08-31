@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto:wght@100;300&display=swap');
+
 .divMain {
   background-color: white;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .main {
@@ -25,10 +29,11 @@
 }
 
 .title {
-  margin-top: 10px;
+  margin-top: 3rem;
   text-align: center;
-  font-size: 35px;
-  color: #082C8C;
+  font-size: 33px;
+  color: #073763;
+  font-weight: bolder;
 }
 
 .h1 {
@@ -37,12 +42,15 @@
   text-align: center;
   justify-content: space-around;
   font-size: 25px;
-  color: #082C8C;
+  color: #073763;
+  font-weight: bolder;
 }
 
 .text {
   text-align: justify;
   margin-right: 25px;
+  font-size: 18px;
+  margin-bottom: 1rem;
 }
 
 .img_nivel1 {
@@ -74,22 +82,23 @@
 }
 
 .paragrafh {
-  margin-top: -69px;
+  margin-top: -8rem;
   margin-left: 48rem;
-  color: #082C8C;
-  font-weight: bold;
+  color: #073763;
+  font-weight: bolder;
 }
 
 .paragrafh_nivel2 {
-  margin-top: -50px;
-  margin-left: 59rem;
-  color: #082C8C;
-  font-weight: bold;
+  text-align: center;
+  margin-top: -5rem;
+  margin-left: 57rem;
+  color: #073763;
+  font-weight: bolder;
 }
 
 .paragrafh_nivel3 {
-  margin-top: -80px;
+  margin-top: -6rem;
   margin-left: 59rem;
-  color: #082C8C;
-  font-weight: bold;
+  color: #073763;
+  font-weight: bolder;
 }

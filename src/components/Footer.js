@@ -7,7 +7,7 @@ export default function Footer() {
   return(
     <div className={style.main}>
       <a href="https://www.instagram.com/colegioexecutivo/" >
-        <Image className={style.img} src={insta} alt='icon-linkedIn' />
+        <Image className={style.img} src={insta} alt='icon-instagram' />
       </a>
     </div>
   )

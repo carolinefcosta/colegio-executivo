@@ -2,7 +2,7 @@ import React from 'react';
 import styleHeader from './css/Header.module.css';
 import Link from 'next/link';
 import Image from 'next/image';
-import logo from '../images/200w.gif'
+import logo from '../images/logo.png'
  
 function Header(){
     return (

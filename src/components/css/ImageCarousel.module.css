@@ -1,0 +1,12 @@
+/* .carousel_container {
+
+} */
+
+.img {
+  width: 35rem;
+}
+
+.carousel_buttons {
+  display: flex;
+  justify-content: space-around;
+}
