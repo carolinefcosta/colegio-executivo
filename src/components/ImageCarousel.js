@@ -34,13 +34,13 @@ const ImageCarousel = ({ images }) => {
               <Image
                 src={seta_es}
                 alt="Anterior"
-                className="nav-button"
+                className={style.nav_button}
                 onClick={prevImage}
               />
               <Image
                 src={seta_di}
                 alt="Próxima"
-                className="nav-button"
+                className={style.nav_button}
                 onClick={nextImage}
               />
             </div>

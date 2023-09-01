@@ -3,12 +3,40 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import style from '../components/css/Estrutura.module.css';
 import Link from "next/link";
-import Image from "next/image";
-import espaco_2 from '../images/2.png';
-import espaco_10 from '../images/10.png';
 import ImageCarousel from '../components/ImageCarousel';
+import sala_leitura from '../images/10.png';
+import sala_marker from '../images/13.png';
+import sala_maker2 from '../images/12.png';
+import sala_maker3 from '../images/14.png';
+import auditorio from '../images/8.png';
+import auditorio2 from '../images/7.png';
+import lab_ciencias from '../images/9.png';
+import sala from '../images/2.png';
+import sala2 from '../images/6.png';
+import sala3 from '../images/4.png';
+import sala4 from '../images/5.png';
 
-const images = [espaco_2, espaco_10];
+
+
+const images1 = [
+  sala_leitura,
+  sala_marker,
+  sala_maker2,
+  sala_maker3,
+  auditorio,
+  auditorio2,
+  lab_ciencias
+];
+
+const images2 = [
+  sala,
+  sala2,
+  sala3,
+  sala4,
+  auditorio,
+  auditorio2,
+  lab_ciencias
+];
 
 export default function Estrutura() {
   return (
@@ -17,10 +45,10 @@ export default function Estrutura() {
       <h1 className={style.h1}>Conheça nossa estrutura</h1>
       <div className={style.div_main_img}>
         <div>
-          <ImageCarousel images={images} />
+          <ImageCarousel images={images1} />
         </div>
         <div>
-          <ImageCarousel images={images} />
+          <ImageCarousel images={images2} />
         </div>
       </div>
       <p className={style.text}>A estrutura do Colégio Executivo e do Berçário Doce Mel contam com um amplo espaço e equipamentos de ponta. Todas as salas de aula tem o seu mobiliário adequado para os alunos, sendo todas climatizadas e monitoradas por câmeras de segurança interna.</p>
@@ -47,6 +75,20 @@ export default function Estrutura() {
       <Link className={style.text} href="/FaleConosco">
         Clique aqui e marque a sua visita hoje mesmo e conheça tudo que a nossa escola pode oferecer para a educação dos seus filhos.
       </Link>
+      {/* <video controls>
+        <source src="https://www.youtube.com/watch?v=D_LNHejJ29g" type="video/mp4" />
+        Seu navegador não suporta a reprodução de vídeos.
+      </video> */}
+      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', margin: '20px'}}>
+        <iframe
+          width="960"
+          height="615"
+          src="https://www.youtube.com/watch?v=LysG3TlOwp0"
+          frameborder="0"
+          allowFullScreen
+        ></iframe>
+      </div>
+
       <Footer />
     </main>
   )

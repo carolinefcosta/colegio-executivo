@@ -21,7 +21,7 @@ export default function Home() {
         </div>
         <Bot />
         <div className={styleHome.main}>
-          <Image className={styleHome.img_nivel1} src={img_logo} alt='logo-executivo-45-anos'/>
+          <Image className={`${styleHome.img_nivel1} ${styleHome.img}`} src={img_logo} alt='logo-executivo-45-anos'/>
           <div className={styleHome.mainH1_nivel1}>
             <h1 className={styleHome.h1}>Colégio Executivo, há 45 anos inspirando atitudes e grandes conquistas!</h1>
             <p className={styleHome.text}>Somos uma instituição educacional fundada em 1978. Comemoramos, no ano de 2023, nossos 45 (quarenta e cinco) anos de efetivo serviço educacional prestado, principalmente. Tudo começou com um sonho, uma jovem educadora e uma proposta inovadora. A Professora Conceição, com simplicidade, honestidade e coragem, fundou em 28 de setembro de 1978 a Escola da Abelhinha.</p>
