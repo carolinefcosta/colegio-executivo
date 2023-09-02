@@ -1,0 +1,50 @@
+.main {
+  background-color: #FFFFFF;
+}
+
+.div_main {
+  margin: 4rem 5rem;
+}
+
+.h1 {
+  font-size: 35px;
+  font-weight: bolder;
+  margin-bottom: 1rem;
+  color: #1D1463;
+}
+
+.h2 {
+  font-size: 24px;
+  font-weight: bolder;
+  color: #1D1463;
+}
+
+.text {
+  font-size: 17px;
+  text-align: justify;
+  margin-bottom: 5px;
+}
+
+.text_contato {
+  font-size: 17px;
+  text-align: justify;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.img {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.div_redes_sociais {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 3rem;
+}
+
+.logo_redes_sociais {
+  width: 4rem;
+  margin: 0 5rem;
+  cursor: pointer;
+}

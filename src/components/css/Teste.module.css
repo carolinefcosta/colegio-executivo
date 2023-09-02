@@ -10,6 +10,16 @@
 }
 
 .watermark {
+  position: absolute;
+  top: -3px; /* Distância do topo */
+  left: -3px; /* Distância da esquerda */
+  font-size: 24px; /* Tamanho da fonte */
+  opacity: 0.5; /* Opacidade da marca d'água */
+  pointer-events: none; /* Evita interações do usuário */
+  width: 45rem;
+}
+
+.watermark2 {
   position: fixed;
   top: 10px; /* Distância do topo */
   left: 10px; /* Distância da esquerda */

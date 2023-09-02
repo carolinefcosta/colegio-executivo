@@ -54,7 +54,7 @@ function Header() {
           <Link href='/Estrutura' className={styleHeader.link}>Estrutura</Link>
           <Link href='/Esportes' className={styleHeader.link}>Esportes</Link>
           <Link href='/Diferenciais' className={styleHeader.link}>Nossos Diferenciais</Link>
-          <Link href='/Fale' className={styleHeader.link}>Fale Conosco</Link>
+          <Link href='/FaleConosco' className={styleHeader.link}>Fale Conosco</Link>
           <Link href='/Parceiros' className={styleHeader.link}>Parceiros</Link>
         </div>
       </div>

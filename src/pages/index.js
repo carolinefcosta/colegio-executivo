@@ -9,10 +9,12 @@ import ensino_fund from '../images/Ensino Fundamental (5).png'
 import Footer from '../components/Footer';
 import img_logo from '../images/Executivo (1).png'
 import img_col_exec from '../images/site - executivo MVV.png'
+import Teste from '@/components/Teste';
 
 export default function Home() {
     return (
       <div className={styleHome.main}>
+        <Teste />
         <div className={styleHome.homeDiv}>
           <Header />   
           <Image src={ens_fundamental_3} alt='logo' className={styleHome.img}/>
