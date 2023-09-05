@@ -53,42 +53,37 @@ export default function Estrutura() {
       </div>
       <p className={style.text}>A estrutura do Colégio Executivo e do Berçário Doce Mel contam com um amplo espaço e equipamentos de ponta. Todas as salas de aula tem o seu mobiliário adequado para os alunos, sendo todas climatizadas e monitoradas por câmeras de segurança interna.</p>
       <ul className={style.text}>
-        <li>✔️ 6 salas de aula - Educação Infantil;</li>
-        <li>✔️ 13 salas de aula - Ensino Fundamental;</li>
-        <li>✔️ 3 salas de aula - Ensino Médio;</li>
-        <li>✔️ Laboratório de Informática e Robótica;</li>
-        <li>✔️ Laboratório de Ciências Multidisciplinar;</li>
-        <li>✔️ Biblioteca;</li>
-        <li>✔️ Auditório;</li>
-        <li>✔️ Quadra poliesportiva;</li>
-        <li>✔️ Campinho de futebol;</li>
-        <li>✔️ Sala de danças;</li>
-        <li>✔️ 2 Parquinhos de areia;</li>
-        <li>✔️ Parquinho coberto;</li>
-        <li>✔️ Cantina;</li>
-        <li>✔️ 2 Salas de Estudos;</li>
-        <li>✔️ 2 Salas para descanso;</li>
-        <li>✔️ Salas de descanso no espaço do Tempo Integral;</li>
-        <li>✔️ Caixa de areia;</li>
-        <li>✔️ 1 Play ground.</li>
+        <li>✔️6 salas de aula - Educação Infantil;</li>
+        <li>✔️13 salas de aula - Ensino Fundamental;</li>
+        <li>✔️3 salas de aula - Ensino Médio;</li>
+        <li>✔️Laboratório de Informática e Robótica;</li>
+        <li>✔️Laboratório de Ciências Multidisciplinar;</li>
+        <li>✔️Biblioteca;</li>
+        <li>✔️Auditório;</li>
+        <li>✔️Quadra poliesportiva;</li>
+        <li>✔️Campinho de futebol;</li>
+        <li>✔️Sala de danças;</li>
+        <li>✔️2 Parquinhos de areia;</li>
+        <li>✔️Parquinho coberto;</li>
+        <li>✔️Cantina;</li>
+        <li>✔️2 Salas de Estudos;</li>
+        <li>✔️2 Salas para descanso;</li>
+        <li>✔️Salas de descanso no espaço do Tempo Integral;</li>
+        <li>✔️Caixa de areia;</li>
+        <li>✔️1 Play ground.</li>
       </ul>
-      <Link className={style.text} href="/FaleConosco">
-        Clique aqui e marque a sua visita hoje mesmo e conheça tudo que a nossa escola pode oferecer para a educação dos seus filhos.
-      </Link>
-      {/* <video controls>
-        <source src="https://www.youtube.com/watch?v=D_LNHejJ29g" type="video/mp4" />
-        Seu navegador não suporta a reprodução de vídeos.
-      </video> */}
+      <p className={style.text}>Marque a sua visita hoje mesmo e conheça tudo que a nossa escola pode oferecer para a educação dos seus filhos.</p>
+      <Link className={style.text} href="/FaleConosco">Clique aqui para agendar sua visita!</Link>
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', margin: '20px'}}>
         <iframe
           width="960"
           height="615"
+          className={style.iframe}
           src="https://www.youtube.com/watch?v=LysG3TlOwp0"
           frameborder="0"
           allowFullScreen
         ></iframe>
       </div>
-
       <Footer />
     </main>
   )

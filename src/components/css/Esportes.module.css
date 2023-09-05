@@ -38,3 +38,37 @@
   margin-left: 1rem;
   font-size: 18px;
 }
+
+@media (max-width: 768px) {
+  .img {
+    width: 100%;
+  }
+
+  .main_div_logo_text{
+    display: block;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .main_div_h1_text {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .h1 {
+    font-size: 15px;
+  }
+
+  .text {
+    font-size: 16px;
+    margin: 0 10px;
+  }
+
+  .image-carousel-container {
+    width: 100%;
+  }
+
+  .carousel-buttons {
+    margin: 0 10px;
+  }
+}

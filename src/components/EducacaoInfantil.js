@@ -14,7 +14,9 @@ export default function EducacaoInfantil() {
             <p className={style.text}>Na Educação Infantil, as crianças têm aulas semanais de educação física, música e informática, além de mais um diferencial de qualidade oferecido pelo Colégio Executivo refere-se à oferta aos alunos, desde o nível 2, do ensino bilíngue.</p>
           </div>
           <Image className={style.img_nivel1} src={ed_infantil} alt="nivel-1"/>
-          <p className={style.paragrafh}>Feira de Jogos Matemáticos - Educação Infantil</p>
+          <div className={style.div_paragraph}>
+            <p className={style.paragraph}>Feira de Jogos Matemáticos - Educação Infantil</p>
+          </div>
         </div>
       </div>
   )

@@ -17,3 +17,23 @@
   margin-left: 25px;
   margin-bottom: 15px;
 }
+
+@media (max-width: 768px) {
+  .div_main {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .h1 {
+    margin-top: 20px;
+    margin-bottom: 20px; 
+  }
+
+  .text {
+    font-size: 16px;
+    margin: 0 0 15px 0; /* Remova as margens horizontalmente */
+    text-align: center;
+    text-align: justify;
+    width: 100%; /* Defina a largura como 100% para ocupar toda a largura disponível */
+  }
+}

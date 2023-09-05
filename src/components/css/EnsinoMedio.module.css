@@ -53,3 +53,40 @@
   color: #073763;
   font-weight: bolder;
 }
+
+@media (max-width: 768px) {
+  .main {
+    flex-direction: column; /* Empilhar elementos verticalmente em telas menores */
+    align-items: center; /* Centralizar o conteúdo verticalmente */
+  }
+
+  .second_main {
+    width: 100%; /* Utilize toda a largura disponível em telas menores */
+    margin-top: 20px; /* Ajustar o espaçamento superior */
+    margin-bottom: 20px; /* Ajustar o espaçamento inferior */
+  }
+
+  .img {
+    width: 80%; /* Reduzir a largura da imagem */
+    margin: 20px auto; /* Centralizar a imagem horizontalmente */
+  }
+
+  .paragrafh {
+    margin-top: 0; /* Remover margem superior negativa */
+    margin-left: 0; /* Remover margem esquerda */
+    text-align: center; /* Centralizar o parágrafo horizontalmente */
+  }
+
+  .text_first {
+    margin: 0 20px; /* Reduzir as margens horizontais */
+  }
+
+  .text {
+    margin: 0 20px; 
+  }
+
+  .ul {
+    margin: 0 20px;
+    text-align: justify;
+  }
+}

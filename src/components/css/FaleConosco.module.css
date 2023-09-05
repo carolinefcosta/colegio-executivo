@@ -48,3 +48,36 @@
   margin: 0 5rem;
   cursor: pointer;
 }
+
+@media (max-width: 768px) {
+  .div_main {
+    margin: 0 1rem 0 1rem;
+  }
+
+  .h1 {
+    font-size: 28px;
+  }
+
+  .h2 {
+    font-size: 20px;
+  }
+
+  .text,
+  .text_contato {
+    font-size: 15px;
+    text-align: justify; 
+  }
+
+  .img {
+    width: 100%;
+  }
+
+  .div_redes_sociais {
+    margin-bottom: 2rem;
+  }
+
+  .logo_redes_sociais {
+    width: 3rem;
+    margin: 1rem 0;
+  } 
+}

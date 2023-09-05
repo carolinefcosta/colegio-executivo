@@ -29,3 +29,31 @@
   font-size: 18px;
   margin: 0 2rem 1rem 2rem;
 }
+
+@media (max-width: 768px) {
+  .h1 {
+    font-size: 1.5em !important; /* Reduzir o tamanho da fonte do título em telas menores */
+    margin: 2rem 0; /* Ajustar a margem superior e inferior do título */
+  }
+
+  .div_main_img {
+    margin: 0 1rem;
+    flex-direction: column; /* Empilhar as imagens verticalmente em telas menores */
+  }
+
+  .img {
+    width: 100%; /* Utilizar toda a largura disponível para as imagens */
+    margin-bottom: 1rem; /* Ajustar o espaçamento inferior entre as imagens */
+  }
+
+  .text {
+    text-align: justify;
+    font-size: 16px; /* Reduzir o tamanho da fonte do texto */
+    margin: 0 1rem 1rem 1rem; /* Ajustar as margens do texto */
+  }
+
+  .iframe {
+    width: 100%;
+    height: auto;
+  }
+}

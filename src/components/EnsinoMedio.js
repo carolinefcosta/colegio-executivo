@@ -16,7 +16,7 @@ export default function EnsinoMedio() {
           <div className={style.second_main}>
             <p className={style.text}>
             O desenvolvimento da proposta curricular do Colégio Executivo para o Ensino Médio tem foco nas finalidades acima elencadas, promovendo uma experiência de estudos ao educando compatível com a sua etapa de desenvolvimento e aproximando-o de novos contextos e responsabilidades, assim sendo: </p>
-            <ul>
+            <ul className={style.ul}>
               <li>📍 O horário de aulas ofertado é estendido, tendo aulas no contraturno de: Redação, Matemática, Física e Química;</li>
               <li>📍 É disponibilizada um programa de monitoria para suporte aos estudantes, objetivando a superação de dificuldades, que possam surgir nos demais componentes curriculares;</li>
               <li>📍 Adicionalmente, são realizados aulões de revisão com professores da Instituição e com professores convidados, aos sábados;</li>

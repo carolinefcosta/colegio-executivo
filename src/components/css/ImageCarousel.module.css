@@ -9,4 +9,15 @@
 
 .nav_button {
   cursor: pointer;
+  width: 64px; /* Largura das imagens de próximo e anterior */
+  height: 64px; /* Altura das imagens de próximo e anterior */
+  margin: 0 20px; /* Margem lateral de 20px nas imagens */
 }
+
+@media (max-width: 768px) {
+  .nav_button {
+    width: 48px; /* Reduza o tamanho das imagens para telas menores */
+    height: 48px; /* Reduza o tamanho das imagens para telas menores */
+  }
+}
+
