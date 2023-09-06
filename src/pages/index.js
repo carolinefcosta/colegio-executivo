@@ -14,8 +14,7 @@ import Teste from '@/components/Teste';
 export default function Home() {
     return (
       <div className={styleHome.main}>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <Teste />
+        {/* <meta name="viewport" content="width=device-width, initial-scale=1" /> */}
         <div className={styleHome.homeDiv}>
           <Header />   
           <Image src={ens_fundamental_3} alt='logo' className={styleHome.img}/>

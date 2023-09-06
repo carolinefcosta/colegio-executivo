@@ -12,11 +12,21 @@
 .display {
   display: flex;
   align-items: center;
+  margin-left: -8rem;
 }
 
 .img {
   height: 3rem;
   width: 3rem;
+}
+
+.link_col_executivo {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 23px;
+  font-weight: bolder;
+  margin-right: 20px;
+  margin-left: 10px;
 }
 
 .menu {
@@ -49,7 +59,7 @@
   }
   
   .menuButton {
-    display: block;
+    /* display: block; */
     background: none;
     border: none;
     cursor: pointer;
@@ -68,7 +78,7 @@
     flex-direction: column;
     position: absolute;
     top: 60px;
-    right: 0;
+    left: 0;
     background-color: #fff;
     width: 200px;
     transform: translateX(100%);
@@ -91,5 +101,17 @@
     height: 1.5rem;
     width: 1.5rem;
     margin-left: 0;
+  }
+
+  .display {
+    display: flex;
+    align-items: center;
+  }
+
+  .link_col_executivo {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.87);
+    font-size: medium;
+    margin-right: 20px;
   }
 }
