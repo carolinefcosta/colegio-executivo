@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import iconW from '../images/icons8-whatsapp-64.png';
+import iconW from '../images/icons-whatsapp-64.png';
 
 function Bot() {
   return (
