@@ -3,7 +3,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #fff;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   height: 60px;
   padding: 0 20px;
@@ -25,6 +24,11 @@
   align-items: center;
 }
 
+.links {
+  display: flex;
+  flex-direction: row;
+}
+
 .link {
   text-decoration: none;
   color: rgba(0, 0, 0, 0.87);
@@ -32,8 +36,14 @@
   margin-right: 20px;
 }
 
+.img_pesquisa {
+  height: 2rem;
+  width: 2rem;
+  margin-left: -8rem;
+}
+
 /* Estilos para telas menores (menu hamburguer) */
-@media (max-width: 1050px) {
+@media (max-width: 1230px) {
   .header {
     width: 100%;
   }
@@ -75,5 +85,11 @@
   .links {
     display: flex;
     flex-direction: column;
+  }
+
+  .img_pesquisa {
+    height: 1.5rem;
+    width: 1.5rem;
+    margin-left: 0;
   }
 }

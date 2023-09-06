@@ -3,6 +3,7 @@ import styleHeader from './css/Header.module.css';
 import Link from 'next/link';
 import Image from 'next/image';
 import logo from '../images/logo.png';
+import lupa from '../images/lupa.png';
 
 function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -33,6 +34,7 @@ function Header() {
           <Link href='/Parceiros' className={styleHeader.link}>Parceiros</Link>
         </div>
       </div>
+          <Image className={styleHeader.img_pesquisa} src={lupa} alt='lupa-pesquisa' />
     </div>
   );
 }
