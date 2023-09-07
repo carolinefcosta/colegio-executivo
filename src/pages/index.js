@@ -13,7 +13,7 @@ import Teste from '@/components/Teste';
 
 export default function Home() {
     return (
-      <div className={styleHome.main}>
+      <div className={`${styleHome.main} ${styleHome.background_image}`}>
         {/* <meta name="viewport" content="width=device-width, initial-scale=1" /> */}
         <div className={styleHome.homeDiv}>
           <Header />   

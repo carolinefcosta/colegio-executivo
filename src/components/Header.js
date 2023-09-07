@@ -12,6 +12,10 @@ function Header() {
     setMenuOpen(!menuOpen);
   };
 
+  const isPaginaEspecial = window.location.pathname === '/Estrutura';
+
+  const textClass = isPaginaEspecial ? styleHeader.textWhite : styleHeader.textBlack;
+
   return (
     <div className={styleHeader.header}>
       {/* Botão para o menu de hambúrguer */}
@@ -24,18 +28,18 @@ function Header() {
       {/* Logotipo e texto */}
       <div className={styleHeader.display}>
         <Image className={styleHeader.img} src={logo} alt='logo-executivo' />
-        <Link href='/' className={styleHeader.link_col_executivo}>Colégio Executivo</Link>
+        <Link href='/' className={`${styleHeader.link_col_executivo} ${textClass}`}>Colégio Executivo</Link>
       </div>
 
       <div className={`${styleHeader.menu} ${menuOpen ? styleHeader.open : ''}`}>
         <div className={styleHeader.links}>
-          <Link href='/' className={styleHeader.link}>Página Inicial</Link>
-          <Link href='/Niveis' className={styleHeader.link}>Níveis de ensino</Link>
-          <Link href='/Estrutura' className={styleHeader.link}>Estrutura</Link>
-          <Link href='/Esportes' className={styleHeader.link}>Esportes</Link>
-          <Link href='/Diferenciais' className={styleHeader.link}>Nossos Diferenciais</Link>
-          <Link href='/FaleConosco' className={styleHeader.link}>Fale Conosco</Link>
-          <Link href='/Parceiros' className={styleHeader.link}>Parceiros</Link>
+          <Link href='/' className={`${styleHeader.link} ${textClass}`}>Página Inicial</Link>
+          <Link href='/Niveis' className={`${styleHeader.link} ${textClass}`}>Níveis de ensino</Link>
+          <Link href='/Estrutura' className={`${styleHeader.link} ${textClass}`}>Estrutura</Link>
+          <Link href='/Esportes' className={`${styleHeader.link} ${textClass}`}>Esportes</Link>
+          <Link href='/Diferenciais' className={`${styleHeader.link} ${textClass}`}>Nossos Diferenciais</Link>
+          <Link href='/FaleConosco' className={`${styleHeader.link} ${textClass}`}>Fale Conosco</Link>
+          <Link href='/Parceiros' className={`${styleHeader.link} ${textClass}`}>Parceiros</Link>
         </div>
       </div>
       
