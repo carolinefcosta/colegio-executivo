@@ -47,7 +47,7 @@
   display: flex;
   justify-content: space-around;
   margin-top: 40px;
-  margin-bottom: 150px;
+  /* margin-bottom: 150px; */
   width: 38%;
 }
 
@@ -59,11 +59,12 @@
 .mainH1_nivel1 {
   justify-content: space-around;
   margin-top: 40px;
-  margin-bottom: 80px;
+  /* margin-bottom: 80px; */
   width: 60%;
 
   margin: 0;
   padding: 0;
+  left: 0;
   background-image: url('../../images/1.jpeg');
   background-size: auto;
   background-repeat: no-repeat;
@@ -73,7 +74,7 @@
 .h1 {
   display: flex;
   flex-wrap: wrap;
-  margin: 0 20px 0 20px;
+  margin: 0 0 0 5rem;
   justify-content: space-around;
   font-size: 35px;
   font-weight: bolder;
@@ -88,11 +89,10 @@
 }
 
 .mainH1_nivel2 {
-  /* margin-top: -4rem; */
-
   margin: 0;
   padding: 0;
-  background-image: url('../../images/2.jpeg');
+  
+  background-image: url('../../images/3.jpeg');
   background-size: auto;
   background-repeat: no-repeat;
   background-position: top left;

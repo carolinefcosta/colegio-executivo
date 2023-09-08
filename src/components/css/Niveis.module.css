@@ -12,6 +12,15 @@
   justify-content: space-around;
   justify-content: center;
   align-items: center;
+
+  
+}
+
+.back_img_educ_infantil {
+  background-image: url('../../images/5.jpeg');
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: bottom left;
 }
 
 .mainH1_nivel1 {

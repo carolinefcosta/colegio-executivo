@@ -8,6 +8,25 @@ import lupa from '../images/lupa.png';
 function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [isPaginaEspecial, setIsPaginaEspecial] = useState(false);
+  // const [isSearchVisible, setSearchVisible] = useState(false);
+  // const [searchTerm, setSearchTerm] = useState('');
+
+  // const handleImageClick = () => {
+  //   if (isSearchVisible === false) {
+  //     setSearchVisible(true);
+  //   } else {
+  //     setSearchVisible(false);
+  //   }
+  // };
+
+  // const handleInputChange = (event) => {
+  //   setSearchTerm(event.target.value);
+  // };
+
+  // const handleSearchSubmit = (event) => {
+  //   event.preventDefault();
+  //   console.log('Pesquisar por:', searchTerm);
+  // };
 
   useEffect(() => {
     if (window.location.pathname === '/Estrutura') {
@@ -45,8 +64,28 @@ function Header() {
           <Link href='/Parceiros' className={`${styleHeader.link}`}>Parceiros</Link>
         </div>
       </div>
-      
-      <Image className={styleHeader.img_pesquisa} src={lupa} alt='lupa-pesquisa' />
+      <Image
+      className={styleHeader.img_pesquisa}
+      src={lupa} alt='lupa-pesquisa'
+      // onClick={handleImageClick}
+      />
+      {/* {
+        isSearchVisible && (
+          <form onSubmit={handleSearchSubmit} className={styleHeader.form}>
+          <input
+            type="text"
+            placeholder="Pesquisar..."
+            value={searchTerm}
+            onChange={handleInputChange}
+          />
+          <button
+          className={styleHeader.button_form}
+          type="submit">
+            Pesquisar
+          </button>
+        </form>
+        )
+      } */}
     </div>
   );
 }

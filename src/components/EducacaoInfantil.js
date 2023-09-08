@@ -5,7 +5,7 @@ import style from '../components/css/Niveis.module.css'
 
 export default function EducacaoInfantil() {
   return (
-    <div>
+    <div className={style.back_img_educ_infantil}>
         <h1 className={style.title}>Conheça nossos Níveis de Ensino</h1>
         <div className={style.main}>
           <div className={style.mainH1_nivel1}>
