@@ -49,3 +49,33 @@ const ImageCarousel = ({ images }) => {
 };
 
 export default ImageCarousel;
+// import React, { useState, useEffect } from "react";
+// import Image from "next/image";
+
+// const ImageCarousel = ({ images }) => {
+//   const [currentIndex, setCurrentIndex] = useState(0);
+
+//   useEffect(() => {
+//     const interval = setInterval(() => {
+//       // Calcula o próximo índice da imagem
+//       const nextIndex = (currentIndex + 1) % images.length;
+//       setCurrentIndex(nextIndex);
+//     }, 3000); // 3000 milissegundos = 3 segundos
+
+//     // Limpar o intervalo quando o componente for desmontado
+//     return () => clearInterval(interval);
+//   }, [currentIndex, images]);
+
+//   return (
+//     <div>
+//       <Image
+//         src={images[currentIndex]}
+//         alt={`carousel-image-${currentIndex}`}
+//         width={400} // Ajuste a largura conforme necessário
+//         height={300} // Ajuste a altura conforme necessário
+//       />
+//     </div>
+//   );
+// };
+
+// export default ImageCarousel;
