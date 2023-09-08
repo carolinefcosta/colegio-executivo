@@ -18,6 +18,11 @@
   transition: top 0.3s ease-in-out; */
 }
 
+.pageEspecial {
+  color: chartreuse !important;
+  background-color: brown;
+}
+
 .display {
   display: flex;
   align-items: center;
@@ -59,14 +64,6 @@
   height: 2rem;
   width: 2rem;
   margin-left: -8rem;
-}
-
-.textBlack {
-  color: #000;
-}
-
-.textWhite {
-  color: #fff;
 }
 
 /* Estilos para telas menores (menu hamburguer) */
