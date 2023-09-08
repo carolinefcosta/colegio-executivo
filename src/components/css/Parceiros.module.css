@@ -1,5 +1,7 @@
 .main {
   background-color: #FFFFFF;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .div_main {
@@ -13,6 +15,8 @@
   color: #1D1463;
 }
 
-/* @media (max-width: 768px) {
-
-} */
+@media (max-width: 1230px) {
+  .div_main {
+    height: 24.5rem;
+  }
+}
