@@ -81,14 +81,14 @@
 
 .text {
   text-align: justify;
-  margin-right: 25px;
+  margin-right: 5rem;
   margin-top: 10px;
-  margin-left: 1rem;
+  margin-left: 5rem;
   font-size: 20px;
 }
 
 .mainH1_nivel2 {
-  margin-top: -4rem;
+  /* margin-top: -4rem; */
 
   margin: 0;
   padding: 0;
