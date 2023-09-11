@@ -79,7 +79,7 @@ export default function Estrutura() {
           width="960"
           height="615"
           className={style.iframe}
-          src="https://www.youtube.com/watch?v=LysG3TlOwp0"
+          src="https://www.youtube.com/embed/LysG3TlOwp0"
           frameborder="0"
           allowFullScreen
         ></iframe>

@@ -40,10 +40,15 @@ export default function FaleConosco() {
           <h1 className={style.h1}>Como Chegar</h1>
           <p className={style.text}>CEP: 59094-520</p>
           <p className={style.text}>Rua Praia de Jacuma, 9016 - Ponta Negra, Natal - RN.</p>
-          {/* Mapa */}
-          {/* <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3968.8644938206508!2d-35.18285259999999!3d-5.874663500000009!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7b2ff326d02427b%3A0x4143f9b3c35d0f8f!2sR.%20Praia%20de%20Jacum%C3%A3%2C%209016%20-%20Ponta%20Negra%2C%20Natal%20-%20RN%2C%2059094-520!5e0!3m2!1spt-BR!2sbr!4v1694186350825!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> */}
-          {/* <MyMap /> */}
+          <iframe
+            className={style.map_iframe}
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3968.8644938206508!2d-35.18285259999999!3d-5.874663500000009!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7b2ff326d02427b%3A0x4143f9b3c35d0f8f!2sR.%20Praia%20de%20Jacum%C3%A3%2C%209016%20-%20Ponta%20Negra%2C%20Natal%20-%20RN%2C%2059094-520!5e0!3m2!1spt-BR!2sbr!4v1694186350825!5m2!1spt-BR!2sbr"
+            width="900"
+            height="450"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
         </div>
         <div>
           <h1 className={style.h1}>Trabalhe Conosco</h1>
