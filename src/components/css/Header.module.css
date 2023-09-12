@@ -11,15 +11,6 @@
   height: 60px;
   padding: 0 20px;
   width: 100%;
-
-  /* Teste para header fixo na tela*/
-  /* position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background-color: #fff;
-  z-index: 100;
-  transition: top 0.3s ease-in-out; */
 }
 
 .pageEspecial {
@@ -29,7 +20,6 @@
 .display {
   display: flex;
   align-items: center;
-  margin-left: -8rem;
 }
 
 .img {
@@ -64,31 +54,26 @@
 .img_pesquisa {
   height: 2rem;
   width: 2rem;
-  margin-left: -8rem;
 }
-
-/* .form {
-  display: flex;
-}
-
-.button_form {
-  background-color: #1C1366;
-  padding: 10px;
-  color: #fff;
-  border-radius: 2px;
-} */
 
 /* Estilos para telas menores (menu hamburguer) */
 @media (max-width: 1230px) {
   .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    height: 60px;
+    padding: 0 20px;
     width: 100%;
   }
-  
+
   .menuButton {
     background: none;
     border: none;
     cursor: pointer;
     padding: 10px;
+    margin-left: auto; /* Mova o botão para a direita definindo a margem à esquerda para "auto" */
   }
 
   .menuButton .bar {
@@ -100,11 +85,12 @@
   }
 
   .menu {
+    color: #000;
     display: none;
     flex-direction: column;
     position: absolute;
     top: 60px;
-    left: 0;
+    right: 0; /* Posiciona à direita */
     background-color: #fff;
     width: 200px;
     transform: translateX(100%);
@@ -127,25 +113,10 @@
   .img_pesquisa {
     height: 1.5rem;
     width: 1.5rem;
-    margin-left: 0;
   }
 
   .display {
     display: flex;
     align-items: center;
-  }
-
-  .img {
-    margin-left: 7rem;
-  }
-
-  .link_col_executivo {
-    text-decoration: none;
-    color: rgba(0, 0, 0, 0.87);
-    font-size: larger;
-  }
-
-  .pageEspecial {
-    color: #000;
   }
 }
