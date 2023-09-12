@@ -7,16 +7,15 @@ import ens_fundamental_3 from '../images/Ensino Fundamental (3) (1).png'
 import ens_fund_4 from '../images/Ensino Fundamental (4).png'
 import ensino_fund from '../images/Ensino Fundamental (5).png'
 import Footer from '../components/Footer';
-import img_logo from '../images/Executivo (1).png'
-import img_col_exec from '../images/site - executivo MVV.png'
-import Teste from '@/components/Teste';
+import img_logo from '../images/Executivo (1).png';
+import img_col_exec from '../images/site - executivo MVV.png';
 
 export default function Home() {
     return (
       <div className={`${styleHome.main} ${styleHome.background_image}`}>
         {/* <meta name="viewport" content="width=device-width, initial-scale=1" /> */}
         <div className={styleHome.homeDiv}>
-          <Header />   
+          <Header />
           <Image src={ens_fundamental_3} alt='logo' className={styleHome.img}/>
           <Image src={ens_fund_4} alt='logo' className={styleHome.img}/>
           <Image src={ensino_fund} alt='logo' className={styleHome.img}/>

@@ -14,7 +14,7 @@
   /* Teste */
   margin: 0;
   padding: 0;
-  background-image: url('../../images/WhatsApp\ Image\ 2023-09-06\ at\ 15.49.30.jpeg');
+  background-image: url('../../images/det_main.jpeg');
   background-repeat: no-repeat;
 }
 
@@ -28,7 +28,7 @@
     /* Teste */
   margin: 0;
   padding: 0;
-  background-image: url('../../images/ce07f539-01bc-4d81-98e2-faba46284700.jpeg');
+  background-image: url('../../images/det_main_inf.jpeg');
   background-size: auto;
   background-repeat: no-repeat;
   background-position: bottom right;
@@ -92,7 +92,7 @@
   margin: 0;
   padding: 0;
   
-  background-image: url('../../images/3.jpeg');
+  background-image: url('../../../public/images/3.jpeg');
   background-size: auto;
   background-repeat: no-repeat;
   background-position: top left;
