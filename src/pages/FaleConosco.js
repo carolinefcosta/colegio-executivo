@@ -7,7 +7,6 @@ import face from '../images/facebook.png';
 import insta from '../images/insta.png';
 import whats from '../images/whatsapp.png';
 import style from  '../components/css/FaleConosco.module.css';
-import { MyMap } from "@/components/MyMap";
 
 export default function FaleConosco() {
   return (
