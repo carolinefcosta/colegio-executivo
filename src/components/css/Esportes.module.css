@@ -80,4 +80,12 @@
   .carousel-buttons {
     margin: 0 10px;
   }
+
+  .div_main_img {
+    margin: 2rem 0 2rem 0;
+    display: flex;
+    flex-direction: column; /* Empilhar as imagens verticalmente em telas menores */
+    align-items: center;
+  }
 }
+

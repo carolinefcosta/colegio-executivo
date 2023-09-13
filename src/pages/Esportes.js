@@ -35,7 +35,7 @@ export default function Esportes() {
           <h1 className={`${style.h1} ${style.h1_color}`}>Espaços</h1>
           <p className={style.text}>Hoje a nossa escola conta com um ginásio poliesportivo que atende as aulas de Educação Física, Basquete, Futsal, Karatê e Vôlei. Além disso, o nosso complexo também possui uma sala de aula para a prática das modalidade de Ballet, Ginástica Rítmica e Ginástica Aeróbica, e um espaço aquático para a prática de Natação.</p>
         </div>
-        <div style={{ margin: '0 15px 0 0' }}>
+        <div className={style.div_main_img}>
           <ImageCarousel className={style.img} images={images} />
         </div>
       </div>
