@@ -52,9 +52,9 @@ export default function FaleConosco() {
         <div>
           <h1 className={style.h1}>Trabalhe Conosco</h1>
           <p className={style.text}>Envie o seu currículo para nosso e-mail e ponha o cargo pretendido no assunto do e-mail.</p>
-          <a href="rh@colegioexecutivo.com.br"
+          <p
           className={style.text_contato}
-          >rh@colegioexecutivo.com.br</a>
+          >rh@colegioexecutivo.com.br</p>
         </div>
       </div>
       <Footer />

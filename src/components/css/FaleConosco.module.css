@@ -31,7 +31,6 @@
   font-size: 17px;
   text-align: justify;
   text-decoration: underline;
-  cursor: pointer;
 }
 
 .img {
@@ -54,6 +53,7 @@
 .map_iframe {
   width: 98%;
 }
+
 @media (max-width: 768px) {
   .div_main {
     margin: 0 1rem 0 1rem;
