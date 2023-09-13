@@ -22,15 +22,25 @@
   }  
 
   .div_main {
-    text-align: center; /* Centralize o conteúdo */
-    margin-top: 3rem;
-    margin-bottom: 5rem;
-  }  
+    text-align: center;
+    margin: 0;
+  }
 
   .img {
-    max-width: 100%; /* Defina a largura máxima da imagem como 100% */
-    height: auto; /* Mantenha a proporção de aspecto da imagem */
+    max-width: 100%;
+    height: auto;
     margin-top: 2rem;
-    margin-bottom: 8rem;
-  }  
+    margin-bottom: 2rem;
+  }
+
+  .footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #1D1463;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+  }
 }
