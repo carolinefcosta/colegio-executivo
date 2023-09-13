@@ -73,7 +73,7 @@
 .h1 {
   display: flex;
   flex-wrap: wrap;
-  margin: 0 0 0 5rem;
+  margin: 2rem 0 0 5rem;
   justify-content: space-around;
   font-size: 35px;
   font-weight: bolder;
@@ -83,7 +83,7 @@
   text-align: justify;
   margin-right: 5rem;
   margin-top: 10px;
-  margin-left: 5rem;
+  margin-left: 2rem;
   font-size: 20px;
 }
 
