@@ -19,9 +19,9 @@ export default function Diferenciais() {
         <p className={style.text}> Pensado e planejado por profissionais das áreas da pedagogia, psicologia e psicopedagogia, a nossa proposta pedagógica e estratégias de ensino-aprendizagem oferecem o melhor do Ensino em Tempo Integral para os nossos alunos. Aqui priorizamos a multidimensionalidade de cada aluno, contemplando todos os aspectos do processo de ensino-aprendizagem, trabalhando com estratégias que garantem o desenvolvimento intelectual, social, emocional, físico e cultural.</p>
         <hr className={style.hr}></hr>
       </div>
-      <div className={style.div_main}>
+      {/* <div className={style.div_main}>
         <h2 className={style.h2}>Música</h2>
-      </div>
+      </div> */}
       <Footer />
     </div>
   )
