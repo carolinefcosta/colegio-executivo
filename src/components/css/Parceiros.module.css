@@ -22,13 +22,15 @@
   }  
 
   .div_main {
-    margin: 3rem 0; /* Remova a margem lateral para ocupar a largura total */
     text-align: center; /* Centralize o conteúdo */
+    margin-top: 3rem;
+    margin-bottom: 5rem;
   }  
 
   .img {
     max-width: 100%; /* Defina a largura máxima da imagem como 100% */
     height: auto; /* Mantenha a proporção de aspecto da imagem */
-    margin-bottom: 5rem;
+    margin-top: 2rem;
+    margin-bottom: 8rem;
   }  
 }
