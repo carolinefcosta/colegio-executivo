@@ -7,6 +7,7 @@ import logo from '../images/logo.png';
 function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [isPaginaEspecial, setIsPaginaEspecial] = useState(false);
+  const [linkExecutivo, setLinkExecutivo] = useState(false)
 
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
@@ -16,6 +17,10 @@ function Header() {
     if (window.location.pathname === '/Estrutura') {
       setIsPaginaEspecial(true);
     }
+
+    if (window.location.pathname === '/') {
+      setLinkExecutivo(true);
+    }
   }, []);
 
   return (
@@ -23,7 +28,7 @@ function Header() {
       {/* Logotipo e texto (à esquerda) */}
       <div className={styleHeader.display}>
         <Image className={styleHeader.img} src={logo} alt='logo-executivo' />
-        <Link href='/' className={`${styleHeader.link_col_executivo}`}>Colégio Executivo</Link>
+        <Link href='/' className={`${styleHeader.link_col_executivo} ${linkExecutivo ? styleHeader.pageEspecial : ''}`}>Colégio Executivo</Link>
       </div>
 
       {/* Botão para o menu de hambúrguer */}
