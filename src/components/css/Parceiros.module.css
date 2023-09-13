@@ -18,9 +18,7 @@
 @media (max-width: 1230px) {
   .main {
     background-color: #FFFFFF;
-    font-family: 'Poppins', sans-serif;
-    font-family: 'Roboto', sans-serif;
-    min-height: 100vh; /* Defina a altura mínima como 100% da altura da viewport */
+    min-height: 100vh; 
   }  
 
   .div_main {
