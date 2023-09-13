@@ -11,7 +11,7 @@ export default function Parceiros() {
       <Header />
       <div className={style.div_main}>
         <h1 className={style.h1}>Nossos Parceiros</h1>
-        <Image src={parceiros} alt="logo-parceiros"/>
+        <Image className={style.img} src={parceiros} alt="logo-parceiros"/>
       </div>
       <Footer />
     </div>
