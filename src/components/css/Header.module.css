@@ -106,6 +106,10 @@
     height: 100%;
   }
 
+  .menu.open .links .link {
+    margin-bottom: 15px;
+  }
+
   .links {
     display: flex;
     flex-direction: column;

@@ -13,7 +13,7 @@ export default function Parceiros() {
         <h1 className={style.h1}>Nossos Parceiros</h1>
         <Image className={style.img} src={parceiros} alt="logo-parceiros"/>
       </div>
-      <Footer/>
+      <Footer />
     </div>
   )
 }
