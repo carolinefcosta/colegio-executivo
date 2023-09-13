@@ -20,6 +20,10 @@
   margin-bottom: 2rem;
 }
 
+.img_carousel {
+  margin-bottom: 20px;
+}
+
 .img {
   width: 35rem;
 }
@@ -39,6 +43,7 @@
   .div_main_img {
     margin: 0 1rem;
     flex-direction: column; /* Empilhar as imagens verticalmente em telas menores */
+    align-items: center;
   }
 
   .img {

@@ -44,10 +44,10 @@ export default function Estrutura() {
       <Header />
       <h1 className={style.h1}>Conheça nossa estrutura</h1>
       <div className={style.div_main_img}>
-        <div>
+        <div className={style.img_carousel}>
           <ImageCarousel images={images1} />
         </div>
-        <div>
+        <div className={style.img_carousel}>
           <ImageCarousel images={images2} />
         </div>
       </div>
