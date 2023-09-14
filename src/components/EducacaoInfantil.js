@@ -18,6 +18,7 @@ export default function EducacaoInfantil() {
             <p className={style.paragraph}>Feira de Jogos Matemáticos - Educação Infantil</p>
           </div>
         </div>
+        <hr className={style.hr}></hr>
       </div>
   )
 }

@@ -6,7 +6,7 @@ import Propostas from "./Propostas";
 
 export default function EnsinoFundamental() {
   return (
-    <div>
+    <div className={style.main_background_image}>
         <div className={style.main}>
           <div className={style.mainH1_nivel2}>
             <h1 className={style.h1}>Ensino Fundamental</h1>

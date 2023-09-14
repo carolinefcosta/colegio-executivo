@@ -1,30 +1,28 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto:wght@100;300&display=swap');
-
+/* CSS para a seção principal */
 .main {
   display: flex;
   flex-wrap: wrap;
   background-color: white;
-  font-family: 'Poppins', 'Roboto', sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   color: black;
   justify-content: center;
 }
 
-.background_image {
-  /* Teste */
+/* Estilos para a imagem de fundo da seção principal */
+.backgroundImage {
   margin: 0;
   padding: 0;
   background-image: url('/images/det_main.jpeg');
   background-repeat: no-repeat;
 }
 
-.homeDiv {
+/* Contêiner para o conteúdo principal */
+.contentContainer {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
   width: 100%;
-
-    /* Teste */
   margin: 0;
   padding: 0;
   background-image: url('/images/det_main_inf.jpeg');
@@ -33,7 +31,8 @@
   background-position: bottom right;
 }
 
-.img {
+/* Estilos para imagens dentro do conteúdo principal */
+.image {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -42,25 +41,21 @@
   width: 30%;
 }
 
-.img_nivel1 {
+/* Estilos específicos para uma imagem na primeira parte do conteúdo */
+.logoImage {
   display: flex;
   justify-content: space-around;
   margin-top: 40px;
-  /* margin-bottom: 150px; */
-  width: 38%;
+  margin-left: 2rem;
+  width: 40%;
+  height: 70%;
 }
 
-.main2 {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.mainH1_nivel1 {
+/* Contêiner para o conteúdo principal nível 1 */
+.mainContentLevel1 {
   justify-content: space-around;
   margin-top: 40px;
-  /* margin-bottom: 80px; */
   width: 60%;
-
   margin: 0;
   padding: 0;
   left: 0;
@@ -70,66 +65,87 @@
   background-position: center right;
 }
 
-.h1 {
+/* Estilos para cabeçalhos <h1> dentro do conteúdo nível 1 */
+.heading {
   display: flex;
   flex-wrap: wrap;
-  margin: 2rem 0 0 5rem;
-  justify-content: space-around;
-  font-size: 35px;
+  margin-top: 3rem;
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+  justify-content: flex-start;
+  font-size: 37px;
   font-weight: bolder;
 }
 
-.text {
+/* Estilos para parágrafos de texto */
+.paragraph {
   text-align: justify;
-  margin-right: 5rem;
+  margin-right: 3rem;
   margin-top: 10px;
   margin-left: 2rem;
-  font-size: 20px;
+  margin-bottom: 1rem;
+  font-size: 22px;
 }
 
-.mainH1_nivel2 {
+/* Contêiner para elementos de teste */
+.contentContainer2 {
+  display: flex;
+  justify-content: center;
+
   margin: 0;
   padding: 0;
-  
+  left: 0;
+  background-image: url('/images/2.jpeg');
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: bottom left;
+}
+
+/* Contêiner para o conteúdo principal nível 2 */
+/* .mainContentLevel2 {
+  margin: 0;
+  padding: 0;
   background-image: url('/images/3.jpeg');
   background-size: auto;
   background-repeat: no-repeat;
   background-position: top left;
-}
+} */
 
-.img_misão {
+/* Estilos para a imagem da missão/visão */
+.missionImage {
   width: 70rem;
   margin: 3rem 0 3rem 0;
 }
 
- @media (max-width: 717px) {
-  .homeDiv {
+/* Estilos para telas com largura máxima de 717px */
+@media (max-width: 717px) {
+  .contentContainer {
     flex-direction: column;
     align-items: center;
   }
-  .img {
+  .image {
     width: 100%;
     margin: 10px 0;
   }
 }
 
-
+/* Estilos para telas com largura máxima de 768px */
 @media (max-width: 768px) {
-  .img {
+  .image {
     width: 100%;
     margin: 10px 0;
   }
-  .h1,
-  .mainH1_nivel1 {
+  .heading,
+  .mainContentLevel1 {
     width: 100%;
     margin-bottom: 100px;
     margin: 10px;
   }
-  .text {
+  .paragraph {
     font-size: 18px;
     margin: 10px;
   }
-  .mainH1_nivel2 {
+  .mainContentLevel2 {
     margin-top: 0;
     margin: 0 10px 0;
   }

@@ -18,6 +18,12 @@
   margin-bottom: 15px;
 }
 
+.hr {
+  border: none; 
+  border-top: 1px solid #ccc;
+  margin: 20px 0;
+}
+
 @media (max-width: 768px) {
   .div_main {
     flex-direction: column;

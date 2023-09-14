@@ -13,6 +13,7 @@ export default function Propostas() {
       <p className={style.text}>De um grupo menor com no máximo três professores, eles passam a conviver com nove profissionais de quatro áreas de conhecimento.  As questões relativas aos conteúdos são mais exigidas e a autonomia muito mais cobrada.</p>
       <p className={style.text}>As famílias mudam também e não são raros os momentos de dúvidas e conflitos.</p>
       <p className={style.text}>Considerando esses aspectos, os professores do Colégio Executivo são estimulados a desenvolver aulas que despertem o interesse e a atenção dos alunos, aulas de Ciências usando laboratório uma vez por semana, utilização de músicas, Inglês diariamente com muita motivação para a conversação, oferta do Espanhol para familiarização com a língua.</p>
+      <hr className={style.hr}></hr>
     </div>
   )
 }
