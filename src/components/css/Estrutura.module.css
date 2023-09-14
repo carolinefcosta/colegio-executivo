@@ -31,6 +31,13 @@
   margin: 0 2rem 1rem 2rem;
 }
 
+.text_link {
+  text-align: justify;
+  font-size: 18px;
+  margin: 0 2rem 1rem 2rem;
+  text-decoration: underline;
+}
+
 @media (max-width: 768px) {
   .h1 {
     font-size: 1.5em !important; /* Reduzir o tamanho da fonte do título em telas menores */

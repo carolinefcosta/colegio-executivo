@@ -70,7 +70,7 @@ export default function Estrutura() {
         <li>✔️1 Play ground.</li>
       </ul>
       <p className={style.text}>Marque a sua visita hoje mesmo e conheça tudo que a nossa escola pode oferecer para a educação dos seus filhos.</p>
-      <Link className={style.text} href="/FaleConosco">Clique aqui para agendar sua visita!</Link>
+      <Link className={style.text_link} href="/FaleConosco">Clique aqui para agendar sua visita!</Link>
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', margin: '20px'}}>
         <iframe
           width="960"
