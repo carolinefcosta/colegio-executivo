@@ -24,7 +24,6 @@ const images1 = [
   sala_maker2,
   sala_maker3,
   auditorio,
-  auditorio2,
   lab_ciencias
 ];
 
@@ -33,9 +32,7 @@ const images2 = [
   sala2,
   sala3,
   sala4,
-  auditorio,
   auditorio2,
-  lab_ciencias
 ];
 
 export default function Estrutura() {

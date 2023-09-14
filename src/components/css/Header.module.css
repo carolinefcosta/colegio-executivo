@@ -2,8 +2,8 @@
 
 /* Estilos para telas maiores */
 .header {
-  font-family: 'Poppins', sans-serif;
-  font-family: 'Roboto', sans-serif;
+  /* font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -28,7 +28,6 @@
 }
 
 .link_col_executivo {
-  /* color: #fff; */
   text-decoration: none;
   font-size: 23px;
   font-weight: bolder;
@@ -74,7 +73,7 @@
     border: none;
     cursor: pointer;
     padding: 10px;
-    margin-left: auto; /* Mova o botão para a direita definindo a margem à esquerda para "auto" */
+    margin-left: auto;
   }
 
   .menuButton .bar {
@@ -91,7 +90,7 @@
     flex-direction: column;
     position: absolute;
     top: 60px;
-    right: 0; /* Posiciona à direita */
+    right: 0;
     background-color: #fff;
     width: 200px;
     transform: translateX(100%);
