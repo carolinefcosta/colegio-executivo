@@ -1,3 +1,8 @@
+.carousel_container {
+  display: flex;
+  margin: 3rem;
+}
+
 .img {
   width: 35rem;
 }
@@ -8,10 +13,12 @@
 }
 
 .nav_button {
+  position: absolute;
   cursor: pointer;
   width: 64px; /* Largura das imagens de próximo e anterior */
   height: 64px; /* Altura das imagens de próximo e anterior */
-  margin: 0 20px; /* Margem lateral de 20px nas imagens */
+  margin: 0 10px;
+  margin-top: 20rem;
 }
 
 @media (max-width: 768px) {

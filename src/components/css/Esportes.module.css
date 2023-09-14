@@ -1,9 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto:wght@100;300&display=swap');
-
 .main {
   background-color: #FFFFFF;
-  font-family: 'Poppins', sans-serif;
-  font-family: 'Roboto', sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .main_div_logo_text {
@@ -33,15 +30,20 @@
 
 .h1_color {
   color: #FF6200;
+  margin-bottom: 1rem;
 }
 
 .text {
   text-align: justify;
-  margin-right: 25px;
+  margin-right: 2rem;
   margin-top: 10px;
-  margin-left: 1rem;
+  margin-left: 3rem;
   font-size: 18px;
 }
+
+/* .div_main_img {
+  width: 40%;
+} */
 
 @media (max-width: 768px) {
   .img {
