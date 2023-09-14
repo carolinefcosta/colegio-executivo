@@ -25,6 +25,8 @@
   .nav_button {
     width: 48px; /* Reduza o tamanho das imagens para telas menores */
     height: 48px; /* Reduza o tamanho das imagens para telas menores */
+    margin: 0 10px;
+    margin-top: 15rem;
   }
 }
 
