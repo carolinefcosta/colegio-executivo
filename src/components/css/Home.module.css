@@ -1,5 +1,6 @@
-/* CSS para a seção principal */
+/* CSS OFICIAL */
 .main {
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   background-color: white;
@@ -101,52 +102,53 @@
   background-position: bottom left;
 }
 
-/* Contêiner para o conteúdo principal nível 2 */
-/* .mainContentLevel2 {
-  margin: 0;
-  padding: 0;
-  background-image: url('/images/3.jpeg');
-  background-size: auto;
-  background-repeat: no-repeat;
-  background-position: top left;
-} */
-
 /* Estilos para a imagem da missão/visão */
-.missionImage {
-  width: 70rem;
-  margin: 3rem 0 3rem 0;
-}
-
-/* Estilos para telas com largura máxima de 717px */
-@media (max-width: 717px) {
-  .contentContainer {
+@media (max-width: 767px) {
+  .main {
     flex-direction: column;
     align-items: center;
   }
-  .image {
-    width: 100%;
-    margin: 10px 0;
-  }
-}
 
-/* Estilos para telas com largura máxima de 768px */
-@media (max-width: 768px) {
-  .image {
-    width: 100%;
-    margin: 10px 0;
+  .main2 {
+    flex-direction: column;
+    align-items: center;
   }
-  .heading,
+  
+  .image, .logoImage {
+    width: 100%;
+    margin: 2rem 0 0 0;
+  }
+
   .mainContentLevel1 {
     width: 100%;
-    margin-bottom: 100px;
-    margin: 10px;
   }
+
+  .mainContentLevel1, .mainContentLevel2 {
+    background-image: none;
+  }
+  
+  .contentContainer2 {
+    background-image: none;
+  }
+
+  .heading {
+    font-size: 30px;
+    margin-left: 8px;
+  }
+
+  .paragraph {
+    text-align: center;
+    margin: 20px;
+  }
+
   .paragraph {
     font-size: 18px;
     margin: 10px;
+    text-align: justify;
   }
-  .mainContentLevel2 {
-    margin-top: 0;
-    margin: 0 10px 0;
+
+  .missionImage {
+    width: 70rem;
+    margin: 3rem 0 3rem 0;
   }
 }

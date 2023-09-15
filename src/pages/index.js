@@ -63,7 +63,7 @@ export default function Home() {
         </div>
         <Bot />
         <div className={`${styleHome.main} ${styleHome.backgroundImage2}`}>
-          <div className={styleHome.contentContainer2}>
+          <div className={`${styleHome.main2} ${styleHome.contentContainer2}`}>
             <Image className={`${styleHome.logoImage} ${styleHome.image}`} src={logoExecutivoImg} alt='logo-executivo-45-anos'/>
             <div className={styleHome.mainContentLevel1}>
               <h1 className={styleHome.heading}>Colégio Executivo, há 45 anos <br></br>inspirando atitudes e grandes <br></br>conquistas!</h1>
